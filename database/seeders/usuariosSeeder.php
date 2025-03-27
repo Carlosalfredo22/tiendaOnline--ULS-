@@ -16,7 +16,7 @@ class usuariosSeeder extends Seeder
                 'contraseña' => Hash::make('admin123'),
                 'direccion' => 'Calle 123',
                 'telefono' => '123456789',
-                'rol_id' => 1,
+                'rol_id' => 5,
                 'created_at' => now(),
             ],
             [
@@ -25,7 +25,7 @@ class usuariosSeeder extends Seeder
                 'contraseña' => Hash::make('cliente123'),
                 'direccion' => 'Avenida 456',
                 'telefono' => '987654321',
-                'rol_id' => 2,
+                'rol_id' => 6,
                 'created_at' => now(),
             ],
         ]);

@@ -9,9 +9,9 @@ class rolespermisosSeeder extends Seeder
     public function run()
     {
         DB::table('roles_permisos')->insert([
-            ['rol_id' => 1, 'permiso_id' => 1],
-            ['rol_id' => 1, 'permiso_id' => 2],
-            ['rol_id' => 1, 'permiso_id' => 3],
+            ['rol_id' => 5, 'permiso_id' => 10],
+            ['rol_id' => 6, 'permiso_id' => 11],
+            ['rol_id' => 5, 'permiso_id' => 12],
         ]);
     }
 }
